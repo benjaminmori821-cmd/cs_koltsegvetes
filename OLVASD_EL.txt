@@ -1,0 +1,7 @@
+Költségvetés – üres, iPhone-kompatibilis webalkalmazás
+
+A jelenlegi index.html forrásából készült; a személyes induló tételeket eltávolítottuk, az alapértelmezett csoport „Egyéb”. Az eredeti működési logika, JSON import/export és a megjelenés megmaradt. A csomag nem tartalmaz JSON-adatmentéseket.
+
+Telepítés: a csomag tartalmát egy HTTPS webtárhely külön könyvtárába kell feltölteni, majd iPhone-on Safariban megnyitni és a Főképernyőhöz adni. A ZIP önmagában nem telepíthető. Az offline működés az első sikeres online megnyitás után lehetséges.
+
+FONTOS: az adatok a böngésző helyi tárhelyében vannak; rendszeresen készíts külön JSON-mentést. Az iPhone-on való működés még nem lett tényleges készüléken tesztelve. A meglévő, másik címen tárolt személyes adatok nem kerülnek át.
